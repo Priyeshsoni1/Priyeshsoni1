@@ -23,4 +23,4 @@ Developed and maintained client-facing web applications using React.js.
 ## 📫 Get in Touch
 - LinkedIn: https://www.linkedin.com/in/priyesh-soni-6079881a7/
 - Twitter:  https://x.com/Priyesh9721
-- Email: piryesh9792@gmail.com
+- Email: priyesh9792@gmail.com
