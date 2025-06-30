@@ -47,15 +47,15 @@ Currently working at **Emeis Technologies** as an **Associate Software Consultan
 
 ## 🚀 Featured Projects
 
-### 🛍️ [ZenCartel](#)
+### 🛍️ [ZenCartel](https://zencartel-priyesh.vercel.app/)
 - Full-Stack e-commerce with **JWT Auth**, Admin Panel, **Stripe**, Session Mgmt  
 - Tech: React, Node.js, Express, MongoDB, Stripe, NodeMailer
 
-### 🏥 [MedifyApp](#)
+### 🏥 [MedifyApp](https://medify-app-priyesh.vercel.app/)
 - Medical booking app with **calendar integration**, search filters, and accessibility support  
 - Tech: React, Router, Tailwind, Zustand, localStorage
 
-### 🤖 [AI Chat Bot](#)
+### 🤖 [AI Chat Bot](https://aibot-priyesh.vercel.app/)
 - Responsive AI chatbot with session history, feedback & analytics  
 - Tech: React, Zustand, Framer Motion, localStorage
 
