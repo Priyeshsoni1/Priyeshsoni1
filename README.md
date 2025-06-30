@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Priyesh Soni
 
-🚀 **Full Stack Developer | MERN Stack Specialist | System Design Enthusiast**  
+🚀 **Full Stack Developer | MERN Stack
 📍 India | 🌐 [Portfolio](https://www.crio.do/learn/portfolio/priyesh9792/) • [LinkedIn](https://www.linkedin.com/in/priyesh-soni-6079881a7/) • [GitHub](https://github.com/priyeshsoni1/) • [LeetCode](https://leetcode.com/u/PRIYESHSONI/)
 
 ---
