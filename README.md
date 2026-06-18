@@ -1,17 +1,17 @@
 # 👋 Hi, I'm Priyesh Soni
 
-🚀 **Backend Engineer** | Node.js · Golang · DevOps
-📍 India | 🌐 [Portfolio](https://www.crio.do/learn/portfolio/priyesh9792/) · [LinkedIn](https://www.linkedin.com/in/priyesh-soni-6079881a7/) · [GitHub](https://github.com/priyeshsoni1/) · [LeetCode](https://leetcode.com/u/PRIYESHSONI/)
+🚀 **AI / LLM Engineer** | Python · LangChain · RAG · Node.js · Full-Stack AI
+📍 India | 🌐 [Portfolio](https://www.crio.do/learn/portfolio/priyesh9792/) · [LinkedIn](https://www.linkedin.com/in/priyesh-soni-6079881a7/) · [GitHub](https://github.com/priyeshsoni1/) · [Hugging Face](https://huggingface.co/priyeshsoni)
 
 ---
 
 ## 💼 About Me
 
-I'm a **Backend Engineer with 3+ years of experience** designing and shipping scalable REST APIs, job-orchestration systems, and event-driven automation pipelines. My primary stack is **Node.js / Express.js**, and I'm actively building with **Golang** for high-concurrency, performance-critical services.
+AI-focused backend engineer with **3+ years of experience** shipping production systems integrated with **Generative AI** — including LLM-powered chatbots, GenAI document automation, and NLP-driven workflows using the **OpenAI API**.
 
-Currently at **TurnKey Solutions**, where I architect backend automation modules and job-orchestration engines powering multiple internal product lines. Previously at **Emeis Technologies**, building backend systems for logistics, healthcare, and e-commerce domains.
+Currently deepening this into full **AI / LLM Engineering** — building **RAG pipelines, AI agents** (LangChain, LangGraph), and **LLM-integrated automation systems** at TurnKey Solutions. My backend depth in **Node.js / Express.js** lets me own the full AI application stack: Python LLM backend + Node.js API gateway + React frontend.
 
-I care about **system design, clean architecture, and production reliability** — not just making things work, but making them scale.
+I care about **system design, clean architecture, and shipping AI features that are actually reliable in production** — not just demos.
 
 ---
 
@@ -19,73 +19,96 @@ I care about **system design, clean architecture, and production reliability** �
 
 | Area | Technologies |
 |---|---|
-| **Languages** | Go (Golang), JavaScript (ES6+), TypeScript, SQL, Bash |
-| **Backend** | Node.js, Express.js, REST API Design, MVC, Clean Architecture, Microservices, Job Queues |
-| **DevOps / Infra** | Docker, GitHub Actions (CI/CD), Linux, Nginx, AWS (EC2, S3), Git, Shell Scripting |
-| **Databases** | MongoDB, PostgreSQL, Redis (caching & pub-sub), Mongoose |
-| **Auth / APIs** | JWT, OAuth2, Stripe, Razorpay, Shopify API, NodeMailer, Socket.IO |
-| **Concepts** | System Design, Concurrency, RBAC, API Rate Limiting, Caching Strategies, OOP |
-| **Prior Exposure** | React.js, Next.js (full-stack context) |
+| **AI / LLM** | Python, LangChain, LlamaIndex, LangGraph, OpenAI API, Anthropic Claude API, RAG Pipelines, Prompt Engineering, Hugging Face (PEFT, Transformers), RAGAS, LangSmith |
+| **Vector / Data** | Pinecone, Chroma, pgvector, MongoDB, PostgreSQL, Redis |
+| **Backend** | Node.js, Express.js, FastAPI, REST API Design, Microservices, Async Processing, Clean Architecture |
+| **DevOps / Cloud** | Docker, GitHub Actions (CI/CD), AWS (EC2, S3), Nginx, Linux, Vercel |
+| **Frontend / Full-Stack** | React.js, Next.js, Vercel AI SDK, WebSockets, Socket.IO |
+| **Auth / Integrations** | JWT, OAuth2, Stripe, Razorpay, Shopify API, NodeMailer |
 
 ---
 
 ## 💻 Work Experience
 
-### Backend Engineer — TurnKey Solutions *(Sep 2025 – Present)*
+### Software Development Engineer — TurnKey Solutions *(Sep 2025 – Present)*
+*Product-based AI Automation company · Products: Rainier, Conductor, C-Factory*
 
-- Architected **backend automation modules** in Node.js / Express.js orchestrating scheduled workflows across 3 product lines — eliminating all manual intervention
-- Designed a **job-orchestration engine** that chains dependent APIs, validates state, and retries on failure → **35% improvement in pipeline reliability**
-- Built reusable service-layer utilities for parsing and workflow execution → **40% reduction in code duplication**
-- Deployed with a **zero-downtime rollout** strategy across production environments
+- Integrated **LLM-powered test case generation** into **C-Factory** using OpenAI API and prompt engineering → **40% reduction** in manual spec effort
+- Built an **AI-assisted failure analysis module** for **Rainier** using LangChain + RAG over internal test-log knowledge base → **35% faster triage**
+- Designed an intelligent **workflow automation engine** for **Conductor** in Node.js/Express.js, chaining dependent APIs with retry logic → **35% improvement in pipeline reliability**
+- Built a **Node.js API gateway** routing requests between the Python FastAPI LLM backend and product frontends
 
 ### Associate Software Consultant — Emeis Technologies *(Feb 2023 – Aug 2025)*
 
 **Formula2Ship** (Logistics Platform)
-- Engineered scalable REST APIs and middleware layers in Node.js / Express.js → **15% faster shipment processing**
-- Implemented JWT-based RBAC + custom Express middleware → **30% fewer unauthorized access incidents**
-- Built async bulk-import pipeline (Excel) + Razorpay/Shopify integrations → **20% fewer transaction failures**
-- Optimized MongoDB schemas with indexed queries for multi-tenant logistics data at scale
+- Integrated **OpenAI GPT-3.5 API** to build an **AI-powered customer support chatbot** → deflected **40%** of repetitive tickets, **60% faster** resolution
+- Built a **GenAI document-generation module** auto-producing shipping manifests and customs declarations → saved **3 hrs/day** of manual work
+- Implemented **NLP-based address parsing** via OpenAI function-calling → **18% fewer** failed-delivery incidents
+- Engineered scalable REST APIs in Node.js/Express.js with **ML-ready MongoDB schemas** for future predictive-routing
 
 **CheckNoutWeb** (Healthcare Backend)
-- Built Patient & Hospital Management API (Node.js, Express.js, MongoDB) covering scheduling, billing, and inventory → **30% efficiency improvement**
-- Applied MVC architecture with modular service layers → **20% reduction in maintenance overhead**
+- Integrated **OpenAI API** to build an **AI-powered patient intake assistant** with conversational symptom collection → **35% less** manual data entry
+- Developed a **GenAI report-generation service** (GPT-4) auto-drafting discharge summaries → **45% faster** documentation
+- Built Patient & Hospital Management API (Node.js, Express.js, MongoDB) with structured, audit-ready data layer
 
 ---
 
 ## 🚀 Featured Projects
 
-### ⚙️ [GoWorker — Golang Concurrent Job Processor](https://github.com/priyeshsoni1)
-> Lightweight job-queue microservice in Go using goroutines and channels — designed for **1000+ tasks/sec** with configurable worker pools. Exposes a REST API for job submission, polling, and retry logic. Containerized with Docker, CI/CD via GitHub Actions.
+### 🤖 [Multi-Turn Streaming Chatbot](https://github.com/Priyeshsoni1/AIBot) — *Phase 1 ✅*
+> Python async chatbot integrating OpenAI + Anthropic Claude APIs with streaming output (SSE), configurable system prompts, persistent history, and a live token-cost tracker.
 
-`Go` `Goroutines` `Docker` `GitHub Actions` `REST API`
+`Python` `OpenAI API` `Anthropic API` `Async` `Streaming`
+
+---
+
+### 📄 Document Q&A RAG System — *Phase 2 🔄 In Progress*
+> Production-grade RAG pipeline using LangChain + Pinecone with semantic chunking, re-ranking, source citation, and automated quality measurement via the RAGAS framework.
+
+`LangChain` `Pinecone` `RAGAS` `FastAPI`
+
+---
+
+### 🧠 Multi-Tool LLM Agent — *Phase 2 🔄 In Progress*
+> Stateful ReAct agent (LangGraph) with 5 tools — web search, Python REPL, file reader, calculator, custom API caller — with LangSmith tracing on every step.
+
+`LangGraph` `LangChain` `LangSmith` `Node.js Gateway`
+
+---
+
+### 🎯 QLoRA Fine-Tuned Domain LLM — *Phase 3 📋 Planned*
+> Fine-tuning Mistral 7B with QLoRA (Hugging Face PEFT + TRL) on a domain-specific dataset, evaluated with RAGAS + LLM-as-judge, hosted on Hugging Face.
+
+`Hugging Face` `PEFT` `QLoRA` `Streamlit`
+
+---
+
+### ⚖️ Full-Stack AI SaaS — Indian Legal Assistant — *Phase 4 📋 Planned*
+> Next.js + Vercel AI SDK frontend with Python FastAPI backend — RAG over Indian case law with multi-turn Q&A and case citations.
+
+`Next.js` `Vercel AI SDK` `RAG` `FastAPI`
 
 ---
 
 ### 🛍️ [ZenCartel — E-Commerce Backend](https://zencartel-priyesh.vercel.app/) · [Repo](https://github.com/Priyeshsoni1/e-commerce-backend)
-> Production-grade REST API with JWT + cookie auth, RBAC for admin/customer roles, Stripe payments, NodeMailer invoicing, and Redis-ready session architecture.
+> Production REST API with JWT + RBAC, Stripe payments, NodeMailer invoicing, and Redis-ready session architecture — backend depth supporting AI system deployment.
 
-`Node.js` `Express.js` `MongoDB` `JWT` `Stripe` `Redis`
-
----
-
-### 🤖 [AI Bot — Stateful Chat Service](https://aibot-priyesh.vercel.app/) · [Repo](https://github.com/Priyeshsoni1/AIBot)
-> Multi-session backend with persistent chat history, feedback aggregation, and analytics APIs — designed for extensibility with any LLM provider.
-
-`Node.js` `REST API` `Session Management` `Analytics`
+`Node.js` `Express.js` `MongoDB` `Stripe` `Redis`
 
 ---
 
 ## 📈 Currently Focusing On
 
-- **Golang** — goroutines, channels, building production microservices
-- **System Design** — distributed systems, message queues, caching layers
-- **DevOps** — Docker, Kubernetes (learning), CI/CD pipelines
-- **DSA** — consistent LeetCode practice for backend interview prep
+- **RAG & Vector Databases** — LangChain, LlamaIndex, Pinecone, semantic search
+- **AI Agents** — LangGraph, tool use, multi-step reasoning
+- **LLM Evaluation** — RAGAS, LangSmith, LLM-as-judge frameworks
+- **Fine-Tuning** — Hugging Face PEFT, LoRA/QLoRA on open-source models
 
 ---
 
-## 🏆 Certifications
+## 🏆 Certifications & Training
 
+- 🔷 **AI / LLM Engineering Roadmap** *(self-directed, 12-month structured programme)* — Phase 1 complete, Phase 2 in progress
 - 🔷 **Fellowship in Full Stack Software Development** @ [Crio.Do](https://www.crio.do/learn/portfolio/priyesh9792/) *(Apr 2023 – Present)*
 - 🔷 **Summer Intern Trainee** @ Nagarro *(Jul 2022 – Aug 2022)*
 
@@ -95,9 +118,8 @@ I care about **system design, clean architecture, and production reliability** �
 
 - 🎓 **B.Tech in Computer Science & Engineering** — CGPA: 8.2 *(2019–2023)*
 - 🏫 Higher Secondary — 85% *(2018–2019)*
-- 🏅 Secondary — CGPA 10 *(2016–2017)*
 
 ---
 
-> 💬 *"I build systems that don't just work — they scale, recover, and perform under pressure."*
-> 📬 Open to backend engineering roles, collaborations, and technical discussions.
+> 💬 *"I build AI systems that don't just demo well — they scale, recover, and perform reliably in production."*
+> 📬 Open to AI / LLM Engineer roles, collaborations, and technical discussions.
