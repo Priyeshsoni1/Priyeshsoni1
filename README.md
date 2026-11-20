@@ -1,125 +1,171 @@
 # 👋 Hi, I'm Priyesh Soni
 
-🚀 **AI / LLM Engineer** | Python · LangChain · RAG · Node.js · Full-Stack AI
-📍 India | 🌐 [Portfolio](https://www.crio.do/learn/portfolio/priyesh9792/) · [LinkedIn](https://www.linkedin.com/in/priyesh-soni-6079881a7/) · [GitHub](https://github.com/priyeshsoni1/) · [Hugging Face](https://huggingface.co/priyeshsoni)
+### AI / LLM Engineer | Python | LangChain | LangGraph | RAG | Agentic AI
+
+📍 India | 🌐 [Portfolio](https://www.crio.do/learn/portfolio/priyesh9792/) · [LinkedIn](https://www.linkedin.com/in/priyesh-soni-6079881a7/) · [GitHub](https://github.com/Priyeshsoni1) · [Hugging Face](https://huggingface.co/priyeshsoni)
 
 ---
 
 ## 💼 About Me
 
-AI-focused backend engineer with **3+ years of experience** shipping production systems integrated with **Generative AI** — including LLM-powered chatbots, GenAI document automation, and NLP-driven workflows using the **OpenAI API**.
+AI-focused Software Engineer with **3+ years of professional experience** building and deploying backend systems and Generative AI-powered applications.
 
-Currently deepening this into full **AI / LLM Engineering** — building **RAG pipelines, AI agents** (LangChain, LangGraph), and **LLM-integrated automation systems** at TurnKey Solutions. My backend depth in **Node.js / Express.js** lets me own the full AI application stack: Python LLM backend + Node.js API gateway + React frontend.
+I specialize in building **LLM-powered applications, Retrieval-Augmented Generation (RAG) systems, AI agents, intelligent automation workflows, and structured LLM pipelines** using Python, LangChain, LangGraph, and FastAPI.
 
-I care about **system design, clean architecture, and shipping AI features that are actually reliable in production** — not just demos.
+Currently working at **TurnKey Solutions**, developing AI capabilities for enterprise test-automation products, including RAG-based failure analysis and structured LLM-powered reporting.
+
+My engineering foundation includes Python, Node.js, FastAPI, PostgreSQL, Redis, Docker, and REST API architecture.
+
+I enjoy building AI systems that go beyond prototypes — focusing on **reliability, evaluation, observability, scalability, and production deployment**.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technical Skills
 
-| Area | Technologies |
+| Category | Technologies |
 |---|---|
-| **AI / LLM** | Python, LangChain, LlamaIndex, LangGraph, OpenAI API, Anthropic Claude API, RAG Pipelines, Prompt Engineering, Hugging Face (PEFT, Transformers), RAGAS, LangSmith |
-| **Vector / Data** | Pinecone, Chroma, pgvector, MongoDB, PostgreSQL, Redis |
-| **Backend** | Node.js, Express.js, FastAPI, REST API Design, Microservices, Async Processing, Clean Architecture |
-| **DevOps / Cloud** | Docker, GitHub Actions (CI/CD), AWS (EC2, S3), Nginx, Linux, Vercel |
-| **Frontend / Full-Stack** | React.js, Next.js, Vercel AI SDK, WebSockets, Socket.IO |
-| **Auth / Integrations** | JWT, OAuth2, Stripe, Razorpay, Shopify API, NodeMailer |
+| **Programming** | Python, JavaScript, TypeScript, SQL |
+| **LLM Engineering** | OpenAI API, Anthropic Claude API, OpenRouter, Prompt Engineering, Function Calling, Structured Outputs |
+| **AI Frameworks** | LangChain, LangGraph, LlamaIndex, Hugging Face Transformers |
+| **RAG & Retrieval** | Document Chunking, Embeddings, Semantic Search, Hybrid Search, Reranking, RRF, Metadata Filtering |
+| **Vector Databases** | PostgreSQL + pgvector, Pinecone, Chroma |
+| **AI Evaluation & LLMOps** | RAGAS, LangSmith, LLM Evaluation, Tracing, Token & Cost Tracking |
+| **Backend Engineering** | FastAPI, Node.js, Express.js, REST APIs, Microservices, Async Processing |
+| **Databases & Caching** | PostgreSQL, MongoDB, Redis |
+| **DevOps & Cloud** | Docker, GitHub Actions, AWS, Linux, Nginx |
+| **Frontend** | React.js, Next.js, Streamlit |
 
 ---
 
-## 💻 Work Experience
+## 💻 Professional Experience
 
-### Software Development Engineer — TurnKey Solutions *(Sep 2025 – Present)*
-*Product-based AI Automation company · Products: Rainier, Conductor, C-Factory*
+### 🚀 AI / Software Development Engineer — TurnKey Solutions
+*September 2025 – Present*
 
-- Integrated **LLM-powered test case generation** into **C-Factory** using OpenAI API and prompt engineering → **40% reduction** in manual spec effort
-- Built an **AI-assisted failure analysis module** for **Rainier** using LangChain + RAG over internal test-log knowledge base → **35% faster triage**
-- Designed an intelligent **workflow automation engine** for **Conductor** in Node.js/Express.js, chaining dependent APIs with retry logic → **35% improvement in pipeline reliability**
-- Built a **Node.js API gateway** routing requests between the Python FastAPI LLM backend and product frontends
+**Enterprise AI Test Automation Platform | Rainier, Conductor, C-Factory**
 
-### Associate Software Consultant — Emeis Technologies *(Feb 2023 – Aug 2025)*
+- Engineered an **AI-assisted failure analysis system** for Rainier using Python, LangChain, and RAG over execution logs and historical test results, reducing manual investigation effort by **30%**.
+- Designed structured LLM pipelines using prompt engineering and Pydantic validation to generate consistent, machine-readable root-cause reports.
+- Developed **Python/FastAPI services** for log extraction, preprocessing, and AI-powered analysis, integrating LLM capabilities with existing Conductor workflows.
+- Implemented reusable validation, error-handling, and integration components, reducing new-module integration effort by approximately **25%**.
 
-**Formula2Ship** (Logistics Platform)
-- Integrated **OpenAI GPT-3.5 API** to build an **AI-powered customer support chatbot** → deflected **40%** of repetitive tickets, **60% faster** resolution
-- Built a **GenAI document-generation module** auto-producing shipping manifests and customs declarations → saved **3 hrs/day** of manual work
-- Implemented **NLP-based address parsing** via OpenAI function-calling → **18% fewer** failed-delivery incidents
-- Engineered scalable REST APIs in Node.js/Express.js with **ML-ready MongoDB schemas** for future predictive-routing
+### 💻 Associate Software Consultant — Emeis Technologies
+*February 2023 – August 2025*
 
-**CheckNoutWeb** (Healthcare Backend)
-- Integrated **OpenAI API** to build an **AI-powered patient intake assistant** with conversational symptom collection → **35% less** manual data entry
-- Developed a **GenAI report-generation service** (GPT-4) auto-drafting discharge summaries → **45% faster** documentation
-- Built Patient & Hospital Management API (Node.js, Express.js, MongoDB) with structured, audit-ready data layer
+**Formula2ship — Logistics & Shipment Platform**
 
----
+- Integrated a **GPT-4-powered support chatbot** with shipment-tracking APIs, enabling customers to retrieve real-time shipment information through natural-language queries.
+- Implemented LLM-based address parsing and correction using OpenAI Function Calling, automating malformed-address resolution in asynchronous Excel bulk-import workflows and improving import throughput by **25%**.
+- Developed Node.js/Express backend services with PostgreSQL, JWT-based RBAC, and Razorpay/Shopify integrations, reducing transaction failures by **20%**.
 
-## 🚀 Featured Projects
+**CheckNoutWeb — Healthcare Management System**
 
-### 🤖 [Multi-Turn Streaming Chatbot](https://github.com/Priyeshsoni1/AIBot) — *Phase 1 ✅*
-> Python async chatbot integrating OpenAI + Anthropic Claude APIs with streaming output (SSE), configurable system prompts, persistent history, and a live token-cost tracker.
-
-`Python` `OpenAI API` `Anthropic API` `Async` `Streaming`
+- Developed a **GPT-powered clinical report-generation service** that transforms unstructured doctor notes into structured discharge summaries and prescription documentation.
+- Built healthcare management modules covering appointments, billing, and pharmacy workflows.
+- Optimized React frontend performance, reducing Largest Contentful Paint (LCP) from **6.04s to 1.58s (74% improvement)**.
 
 ---
 
-### 📄 Document Q&A RAG System — *Phase 2 🔄 In Progress*
-> Production-grade RAG pipeline using LangChain + Pinecone with semantic chunking, re-ranking, source citation, and automated quality measurement via the RAGAS framework.
+## 🚀 Featured AI / LLM Projects
 
-`LangChain` `Pinecone` `RAGAS` `FastAPI`
+### 🛡️ Aegis — AI Due-Diligence & Decision Intelligence
 
----
+An AI-powered decision intelligence system combining multi-step LangGraph workflows, hybrid RAG, external web research, evidence validation, and structured LLM synthesis to generate evidence-backed recommendations.
 
-### 🧠 Multi-Tool LLM Agent — *Phase 2 🔄 In Progress*
-> Stateful ReAct agent (LangGraph) with 5 tools — web search, Python REPL, file reader, calculator, custom API caller — with LangSmith tracing on every step.
+**Key Features**
+- Multi-step LangGraph orchestration.
+- Hybrid retrieval using PostgreSQL + pgvector and full-text search.
+- Reciprocal Rank Fusion (RRF).
+- Evidence-reference validation.
+- Structured outputs using Pydantic.
+- FastAPI, Docker, and GitHub Actions CI/CD.
 
-`LangGraph` `LangChain` `LangSmith` `Node.js Gateway`
+**Tech Stack:** `Python` `LangGraph` `pgvector` `PostgreSQL` `FastAPI` `Docker`
 
----
-
-### 🎯 QLoRA Fine-Tuned Domain LLM — *Phase 3 📋 Planned*
-> Fine-tuning Mistral 7B with QLoRA (Hugging Face PEFT + TRL) on a domain-specific dataset, evaluated with RAGAS + LLM-as-judge, hosted on Hugging Face.
-
-`Hugging Face` `PEFT` `QLoRA` `Streamlit`
-
----
-
-### ⚖️ Full-Stack AI SaaS — Indian Legal Assistant — *Phase 4 📋 Planned*
-> Next.js + Vercel AI SDK frontend with Python FastAPI backend — RAG over Indian case law with multi-turn Q&A and case citations.
-
-`Next.js` `Vercel AI SDK` `RAG` `FastAPI`
+🔗 [Live Demo](https://aegis-ai-decision-intelligence.onrender.com/docs) · [GitHub Repository](https://github.com/Priyeshsoni1/aegis-ai-decision-intelligence)
 
 ---
 
-### 🛍️ [ZenCartel — E-Commerce Backend](https://zencartel-priyesh.vercel.app/) · [Repo](https://github.com/Priyeshsoni1/e-commerce-backend)
-> Production REST API with JWT + RBAC, Stripe payments, NodeMailer invoicing, and Redis-ready session architecture — backend depth supporting AI system deployment.
+### 🤖 AgentForge — Multi-Tool AI Agent
 
-`Node.js` `Express.js` `MongoDB` `Stripe` `Redis`
+A stateful ReAct-based AI agent built with LangGraph, capable of interacting with external tools and executing multi-step tasks.
+
+**Key Features**
+- Five custom tools: Web Search, Python Execution, File Reader, Calculator, and REST API Caller.
+- Stateful agent orchestration using LangGraph.
+- PostgreSQL-based checkpointing.
+- Server-Sent Events (SSE) streaming.
+- API-key authentication and rate limiting.
+- LangSmith tracing and observability.
+
+**Tech Stack:** `Python` `LangGraph` `LangChain` `FastAPI` `PostgreSQL` `LangSmith`
+
+🔗 [Live Demo](https://agentforge-5c50.onrender.com/docs) · [GitHub Repository](https://github.com/Priyeshsoni1/AgentForge)
 
 ---
 
-## 📈 Currently Focusing On
+### 📄 Document Q&A — Production RAG System
 
-- **RAG & Vector Databases** — LangChain, LlamaIndex, Pinecone, semantic search
-- **AI Agents** — LangGraph, tool use, multi-step reasoning
-- **LLM Evaluation** — RAGAS, LangSmith, LLM-as-judge frameworks
-- **Fine-Tuning** — Hugging Face PEFT, LoRA/QLoRA on open-source models
+A document question-answering application that retrieves relevant information from PDF documents and generates grounded answers with page-level citations.
+
+**Key Features**
+- PDF ingestion and extraction using PyMuPDF.
+- Document chunking and embedding generation.
+- Semantic retrieval using Pinecone.
+- Metadata filtering and configurable Top-K retrieval.
+- Page-level source citations.
+- Answer-not-found fallback for unsupported questions.
+- RAGAS evaluation for Faithfulness, Answer Relevancy, Context Precision, and Context Recall.
+- Query-level latency and token-cost tracking.
+
+**Tech Stack:** `Python` `LangChain` `Pinecone` `OpenAI` `RAGAS` `FastAPI` `Streamlit` `Docker`
+
+🔗 [Live Demo](https://https-document-q-a-uqh9-onrender-com.onrender.com/) · [GitHub Repository](https://github.com/Priyeshsoni1/Document-Q-A)
+
+---
+
+## 📈 Currently Learning & Exploring
+
+- **Advanced RAG:** Hybrid Search, Reranking, Query Transformation, and Retrieval Optimization.
+- **Agentic AI:** LangGraph, MCP, Tool Orchestration, and Human-in-the-Loop Workflows.
+- **LLM Evaluation:** RAGAS, LLM-as-Judge, Evaluation Datasets, and Reliability Testing.
+- **Model Fine-Tuning:** Hugging Face Transformers, PEFT, LoRA, and QLoRA.
+- **Production AI:** Docker, AWS, Redis, Observability, and Scalable AI Architecture.
 
 ---
 
 ## 🏆 Certifications & Training
 
-- 🔷 **AI / LLM Engineering Roadmap** *(self-directed, 12-month structured programme)* — Phase 1 complete, Phase 2 in progress
-- 🔷 **Fellowship in Full Stack Software Development** @ [Crio.Do](https://www.crio.do/learn/portfolio/priyesh9792/) *(Apr 2023 – Present)*
-- 🔷 **Summer Intern Trainee** @ Nagarro *(Jul 2022 – Aug 2022)*
+- **Fellowship in Full Stack Software Development** — [Crio.Do](https://www.crio.do/learn/portfolio/priyesh9792/)
+- **Summer Intern Trainee** — Nagarro (July 2022 – August 2022)
+- Continuous self-directed learning in AI Engineering, LLMs, RAG, and Agentic AI.
 
 ---
 
 ## 🎓 Education
 
-- 🎓 **B.Tech in Computer Science & Engineering** — CGPA: 8.2 *(2019–2023)*
-- 🏫 Higher Secondary — 85% *(2018–2019)*
+**B.Tech — Computer Science & Engineering**
+
+CGPA: **8.2/10** | 2019 – 2023
 
 ---
 
-> 💬 *"I build AI systems that don't just demo well — they scale, recover, and perform reliably in production."*
-> 📬 Open to AI / LLM Engineer roles, collaborations, and technical discussions.
+## 📊 GitHub Statistics
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Priyeshsoni1&show_icons=true&theme=tokyonight&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Priyeshsoni1&layout=compact&theme=tokyonight&hide_border=true)
+
+---
+
+## 🤝 Let's Connect
+
+I'm interested in opportunities involving **AI Engineering, LLM Applications, Generative AI, RAG Systems, and Agentic AI**.
+
+Feel free to connect for technical discussions, collaborations, or opportunities.
+
+📧 **Email:** priyesh9792@gmail.com
+
+💼 [LinkedIn](https://www.linkedin.com/in/priyesh-soni-6079881a7/) · 💻 [GitHub](https://github.com/Priyeshsoni1) · 🤗 [Hugging Face](https://huggingface.co/priyeshsoni)
+
+> "Building AI systems that don't just work in demos — they perform reliably in production."
